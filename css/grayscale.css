@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #c67100;
+  border: 1px solid #c67100;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +72,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #c67100;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #7a4500;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #c67100;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #c67100;
   }
 }
 
@@ -136,44 +136,39 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #c67100;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #935400;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #935400;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #7a4500 !important;
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-}
-
-.about-section p {
-  margin-bottom: 5rem;
-}
-
-.projects-section {
   padding: 10rem 0;
 }
 
-.projects-section .featured-text {
+.about-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .about-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #c67100;
   }
+}
+
+.projects-section {
+  padding: 10rem 0;
 }
 
 .projects-section .project-text {
@@ -186,7 +181,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #c67100;
     border-width: .25rem;
     width: 30%;
   }
@@ -198,7 +193,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #c67100;
 }
 
 .contact-section .card h4 {
@@ -209,7 +204,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #c67100;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -242,12 +237,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #c67100;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #603700;
 }
 
 .bg-black {
@@ -255,11 +250,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #c67100 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #c67100 !important;
 }
 
 footer {

@@ -50,14 +50,12 @@
   }
 
   var current = 'cs';
-
   var toggleLang = function() {
     hideLanguage(current);
     current = current === 'cs' ? 'en' : 'cs';
   };
 
   $(document).ready(function() {
-    hideLanguage('en');
     $('.toggle-lang').click(toggleLang);
   });
 })(jQuery); // End of use strict

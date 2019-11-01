@@ -39,4 +39,25 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  var languages = {
+    'cs': 'Česky',
+    'en': 'English'
+  };
+
+  var hideLanguage = function(lang) {
+    $("#language").text('.lang-' + lang + ' { display: none; }');
+    $('.toggle-lang').text(languages[lang]);
+  }
+
+  var current = 'cs';
+
+  var toggleLang = function() {
+    hideLanguage(current);
+    current = current === 'cs' ? 'en' : 'cs';
+  };
+
+  $(document).ready(function() {
+    hideLanguage('en');
+    $('.toggle-lang').click(toggleLang);
+  });
 })(jQuery); // End of use strict

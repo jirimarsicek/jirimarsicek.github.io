@@ -592,7 +592,7 @@ packages:
     dev: true
 
   /camelcase@3.0.0:
-    resolution: {integrity: sha1-MvxLn82vhF/N9+c7uXysImHwqwo=}
+    resolution: {integrity: sha512-4nhGqUkc4BqbBBB4Q6zLuD7lzzrHYrjKGeYaEji/3tFR5VdJu9v+LilhGIVe8wxEJPPOeWo7eg8dwY13TZ1BNg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -1714,11 +1714,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /has-symbols@1.0.0:
-    resolution: {integrity: sha512-QfcgWpH8qn5qhNMg3wfXf2FD/rSA4TwNiDDthKqXe7v6oBW0YKWcnfwMAApgWq9Lh+Yu+fQWVhHPohlD/S6uoQ==}
-    engines: {node: '>= 0.4'}
-    dev: true
-
   /has-symbols@1.0.3:
     resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
     engines: {node: '>= 0.4'}
@@ -2475,7 +2470,7 @@ packages:
     dependencies:
       define-properties: 1.1.3
       function-bind: 1.1.1
-      has-symbols: 1.0.0
+      has-symbols: 1.0.3
       object-keys: 1.1.1
     dev: true
 
@@ -3688,10 +3683,11 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /yargs-parser@5.0.0:
-    resolution: {integrity: sha512-YQY9oiTXNdi9y+RJMjqIwQklfEc4flSuVCuXZS6bRTEAY76eL3bKsZbs6KTsWxHsGXJdSgp1Jj/8AmLpGStEnQ==}
+  /yargs-parser@5.0.1:
+    resolution: {integrity: sha512-wpav5XYiddjXxirPoCTUPbqM0PXvJ9hiBMvuJgInvo4/lAOTZzUprArw17q2O1P2+GHhbBr18/iQwjL5Z9BqfA==}
     dependencies:
       camelcase: 3.0.0
+      object.assign: 4.1.0
     dev: true
 
   /yargs@17.1.1:
@@ -3735,5 +3731,5 @@ packages:
       string-width: 1.0.2
       which-module: 1.0.0
       y18n: 3.2.1
-      yargs-parser: 5.0.0
+      yargs-parser: 5.0.1
     dev: true
